@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Dantas - Descubra Vilarejos Europeus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-map-marked-alt"></i>
+                Gabriel Dantas
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tripme">MinhaViagem</a></li>
+                <li><a href="#meetus">NosEncontre</a></li>
+                <li><a href="#advice">Conselhos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Banner com vilarejo europeu -->
+        <section id="home" class="banner">
+            <div class="banner-content">
+                <h1>Descubra os Vilarejos Escondidos da Europa</h1>
+                <p>Experiencie a autenticidade, a história e a beleza serena dos vilarejos europeus menos explorados. Cada cantinho conta uma história única.</p>
+                <a href="#tripme" class="btn">Explorar Destinos</a>
+            </div>
+        </section>
+
+        <!-- Seção TripMe/MinhaViagem -->
+        <section id="tripme">
+            <div class="container">
+                <div class="section-title">
+                    <h2>MinhaViagem</h2>
+                    <p>Descubra destinos encantadores que vão além dos roteiros tradicionais. Cada vilarejo tem sua própria magia.</p>
+                </div>
+                
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Vilarejo de Hallstatt, Áustria" class="card-img">
+                        <div class="card-content">
+                            <h3>Hallstatt, Áustria</h3>
+                            <p>Um vilarejo alpino pitoresco entre montanhas e um lago cristalino. Conhecido como "a pérola da Áustria", é Patrimônio Mundial da UNESCO.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2092&q=80" alt="Vilarejo de Bibury, Inglaterra" class="card-img">
+                        <div class="card-content">
+                            <h3>Bibury, Inglaterra</h3>
+                            <p>Famosa por suas casas de pedra do século XVII e o rio Coln que serpenteia pelo vilarejo. William Morris descreveu como "a vila mais bonita da Inglaterra".</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Vilarejo de Giethoorn, Holanda" class="card-img">
+                        <div class="card-content">
+                            <h3>Giethoorn, Holanda</h3>
+                            <p>Conhecida como a "Veneza do Norte", este vilarejo não possui estradas, apenas canais. A locomoção é feita por barcos silenciosos ou a pé pelas pontes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção MeetUs/NosEncontre -->
+        <section id="meetus">
+            <div class="container">
+                <div class="section-title">
+                    <h2>NosEncontre</h2>
+                    <p>Entre em contato conosco para planejar a viagem dos seus sonhos pelos vilarejos mais encantadores da Europa.</p>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Vamos planejar sua próxima aventura</h3>
+                        <p>Nossa equipe especializada em viagens para destinos autênticos está pronta para criar um roteiro personalizado para você descobrir os vilarejos mais encantadores da Europa.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Endereço</h4>
+                                    <p>Rua dos Viajantes, 123<br>Lisboa, Portugal</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Telefone</h4>
+                                    <p>+351 123 456 789</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>contato@gabrieldantasviagens.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Envie uma mensagem</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Advice/Conselhos -->
+        <section id="advice">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Conselhos</h2>
+                    <p>Dicas essenciais para aproveitar ao máximo sua viagem pelos vilarejos europeus.</p>
+                </div>
+                
+                <div class="advice-container">
+                    <div class="advice-item">
+                        <h3><i class="fas fa-calendar-alt"></i> Melhor Época para Viajar</h3>
+                        <p>Prefira a primavera (abril-junho) ou outono (setembro-outubro) para evitar multidões e desfrutar de temperaturas agradáveis. Muitos vilarejos têm festivais locais nessas épocas.</p>
+                    </div>
+                    
+                    <div class="advice-item">
+                        <h3><i class="fas fa-language"></i> Comunicação</h3>
+                        <p>Aprenda algumas frases básicas na língua local. Os moradores apreciam o esforço e você terá uma experiência mais autêntica. A maioria dos jovens fala inglês, mas os idosos podem não falar.</p>
+                    </div>
+                    
+                    <div class="advice-item">
+                        <h3><i class="fas fa-utensils"></i> Gastronomia Local</h3>
+                        <p>Experimente os pratos típicos nos restaurantes familiares. Peça recomendações aos locais. Muitos vilarejos têm produtos regionais únicos, como queijos, vinhos e doces tradicionais.</p>
+                    </div>
+                    
+                    <div class="advice-item">
+                        <h3><i class="fas fa-map-signs"></i> Transporte</h3>
+                        <p>Em muitos vilarejos, o carro é essencial para chegar, mas depois estacione e explore a pé. Alguns lugares são pedestres ou têm ruas muito estreitas. Considere alugar uma bicicleta para explorar os arredores.</p>
+                    </div>
+                    
+                    <div class="advice-item">
+                        <h3><i class="fas fa-camera"></i> Fotografia</h3>
+                        <p>Acorde cedo para capturar a luz do amanhecer e evitar turistas. Respeite os moradores ao fotografar - peça permissão quando apropriado. Muitas vezes, as melhores vistas estão nos pontos mais altos do vilarejo.</p>
+                    </div>
+                    
+                    <div class="advice-item">
+                        <h3><i class="fas fa-hands-helping"></i> Respeito Cultural</h3>
+                        <p>Respeite os costumes locais. Em vilarejos menores, a vida segue em ritmo mais lento. Vista-se de forma adequada ao visitar igrejas ou locais religiosos. Seja discreto ao fotografar cerimônias ou eventos locais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Gabriel Dantas Viagens</h3>
+                    <p>Especialistas em viagens autênticas para os vilarejos mais encantadores da Europa. Descubra conosco lugares que vão além do comum.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#tripme">MinhaViagem</a></li>
+                        <li><a href="#meetus">NosEncontre</a></li>
+                        <li><a href="#advice">Conselhos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Destinos Populares</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Hallstatt, Áustria</a></li>
+                        <li><a href="#">Bibury, Inglaterra</a></li>
+                        <li><a href="#">Giethoorn, Holanda</a></li>
+                        <li><a href="#">Monsanto, Portugal</a></li>
+                        <li><a href="#">Èze, França</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Rua dos Viajantes, 123, Lisboa</li>
+                        <li><i class="fas fa-phone"></i> +351 123 456 789</li>
+                        <li><i class="fas fa-envelope"></i> contato@gabrieldantasviagens.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2023 Gabriel Dantas Viagens. Todos os direitos reservados. | Landing Page desenvolvida para fins educacionais.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
